@@ -1,4 +1,5 @@
-const URL = "https://hng12-stage3-textsummariser.onrender.com"
+require('dotenv').config();
+const URL = process.env.URL
 const integrationConfig = {
     "data": {
         "date": {
@@ -7,8 +8,8 @@ const integrationConfig = {
         },
         "descriptions": {
         "app_name": "Briefify",
-        "app_description": "A text summariser, that automatically condense lengthy-text into short concise version retaining the essential meaning and key information",
-        "app_logo": "",
+        "app_description": "Briefify is a text summariser, that automatically condense lengthy-text into short concise version retaining the essential meaning and key information",
+        "app_logo": "https://images.app.goo.gl/LZ74mWw7dPDTfa4u8",
         "app_url": URL,
         "background_color": "#ffffff"
         },
