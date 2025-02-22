@@ -4,9 +4,14 @@ const cors = require('cors');
 
 const app = express(); 
 const summariser = require('./utils/summariser');
+const { integrationConfig } = require('./integration');
 
 app.use(express.json());
 app.use(cors());
+
+app.get("/integration-config",(req, res) => {
+    res.json(integrationConfig)
+})
 
 app.post("/summarise", (req, res) => {
     try {
