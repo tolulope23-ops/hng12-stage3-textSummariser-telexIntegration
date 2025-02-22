@@ -1,4 +1,4 @@
-const URL = "https://6vknhx87-3000.uks1.devtunnels.ms"
+const URL = "https://hng12-stage3-textsummariser.onrender.com"
 const integrationConfig = {
     "data": {
         "date": {
