@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express(); 
-const summariser = require('./utils/messageSummarizer');
+const summariser = require('./utils/summariser');
 
 app.use(express.json());
 app.use(cors());
