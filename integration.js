@@ -1,5 +1,5 @@
 require('dotenv').config();
-const URL = process.env.URL
+const URL = "https://hng12-stage3-textsummariser.onrender.com"
 const integrationConfig = {
     "data": {
         "date": {
