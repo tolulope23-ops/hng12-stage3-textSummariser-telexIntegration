@@ -78,10 +78,10 @@ Response (JSON):
     
     npm start
 
-**Running Tests**
-To ensure the summarizer function works correctly, run unit tests using Jest.
-Install Jest: npm install --save-dev jest
-Run tests: npm jest
+    **Running Tests**
+    To ensure the summarizer function works correctly, run unit tests using Jest.
+    Install Jest:     npm install --save-dev jest
+    Run tests:        npm jest
 
     **TEST CASES**
           test('summarizes a long message correctly', () => {
