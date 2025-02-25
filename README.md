@@ -64,26 +64,22 @@ Response (JSON):
 
 
  **INSTALLATION & DEPLOYMENT**
+ 1. Clone the repository:
+        git clone https://github.com/tolulope23-ops/hng12-stage3-textSummariser-telexIntegration.git
+ 2. INSTALL DEPENDENCIES
+        cd hng12-stage3-textSummariser-telexIntegration
+ 3. Install npm Packages
+        npm install
+ 4. Run the service:
+        npm start
 
-    Clone the repository:
-    
-    git clone https://github.com/tolulope23-ops/hng12-stage3-textSummariser-telexIntegration.git
-    
-    INSTALL DEPENDENCIES
-    
-    cd hng12-stage3-textSummariser-telexIntegration
-    npm install express 
-    
-    Run the service:
-    
-    npm start
-
-    **Running Tests**
+**Running Tests**
     To ensure the summarizer function works correctly, run unit tests using Jest.
-    Install Jest:     npm install --save-dev jest
-    Run tests:        npm jest
-
-    **TEST CASES**
+1. Install Jest
+       npm install --save-dev jest
+2. Run tests
+       npm jest
+   
           test('summarizes a long message correctly', () => {
                 const message = "This is an important sentence. Another crucial line. Generic text follows.";
                 const result = summarizer(message, 2);
