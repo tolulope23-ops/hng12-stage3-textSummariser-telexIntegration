@@ -37,7 +37,8 @@ TEST CASE
         expect(result).toContain("The very nature of creativity and innovation is being challenged, as AI generates novel outputs and insights. AI's pervasive influence is reshaping societal structures, altering the landscape of labor and productivity. Decision-making processes across industries are being augmented, leading to both efficiency gains and potential biases.");
         });
 
-![image alt][https://github.com/tolulope23-ops/hng12-stage3-textSummariser-telexIntegration/blob/69aaf157a64a99d88b31770c032cb4fb9e92501c/telexScreenshot.png]
+![image alt](https://github.com/tolulope23-ops/hng12-stage3-textSummariser-telexIntegration/blob/69aaf157a64a99d88b31770c032cb4fb9e92501c/telexScreenshot.png)
+
 INTEGRATION WITH TELEX
     1. Register your integration on the Telex platform.
     2. Provide the API endpoint URL in the Telex configuration settings.
