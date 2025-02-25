@@ -1,5 +1,5 @@
 ## PROJECT DESCRIPTION
- The Telex Text Summarizer is a Modifier Integration designed for the Telex platform. This integration utilizes Natural Language Processing (NLP) techniques to generate concise and meaningful summaries of long-form text inputs. It enhances text readability and improves information processing by extracting key insights from the given content.
+Telex Text Summarizer is a Modifier Integration designed for the Telex platform. This integration utilizes Natural Language Processing (NLP) techniques to generate concise and meaningful summaries of long-form text inputs. It enhances text readability and improves information processing by extracting key insights from the given content.
 
  ## PROJECT FEATURES
  1. Automatic Summarization: Converts lengthy text into a shorter, coherent version while preserving key
