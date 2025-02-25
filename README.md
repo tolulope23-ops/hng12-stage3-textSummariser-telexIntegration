@@ -23,11 +23,12 @@
    npm start
 
 ## TESTING 
-1. Install jest
-   `npm install --save dev jest`
-2. Run Test
-   `npm run test`
-
+1. Install jest and run test
+   ```
+   npm install --save dev jest`
+   npm run test
+   ```
+   
  ### TEST CASE
 ```
 test('summarizes a long message correctly', () => {
